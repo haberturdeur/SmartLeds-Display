@@ -1,0 +1,34 @@
+{
+    "name": "SmartLeds-Display",
+    "keywords": "LED, esp32, SmartLeds, display",
+    "description": "Library for creating displays from Neopixel.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/haberturdeur/SmartLeds-Display.git"
+    },
+    "authors": [
+        {
+            "name": "Tomáš Rohlínek",
+            "email": "tomas.rohlinek@outlook.cz",
+            "maintainer": true
+        }
+    ],
+    "version": "1.0.0",
+    "frameworks": [
+        "arduino",
+        "espidf"
+    ],
+    "platforms": "espressif32",
+    "license": "MIT",
+    "dependencies": [
+        {
+            "owner": "Jan Mrázek",
+            "name": "SmartLeds",
+            "version": "1.2.1"
+        }
+    ],
+    "build": {
+        "flags": "-std=c++17 -std=gnu++17",
+        "unflags": "-std=gnu++11"
+    }
+}
